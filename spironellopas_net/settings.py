@@ -86,6 +86,15 @@ DATABASES = {
         "NAME": BASE_DIR / "db.sqlite3",
     }
 }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'HOST': 'axiomatic-jet-404016:us-east5:spironellopasnet',
+        'NAME': 'spironellopasnet',
+        'USER': 'postgres',
+        'PASSWORD': 'Yahooargentina.77',
+    }
+}
 
 
 # Password validation
